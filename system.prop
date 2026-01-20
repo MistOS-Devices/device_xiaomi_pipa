@@ -3,3 +3,13 @@ gsm.version.baseband?=Wi-Fi Only
 
 # Xiaomi
 ro.product.mod_device=pipa_global
+
+#mist
+ro.mist.display=1800 x 2880, 144 hz
+ro.mist.battery=8840mah
+ro.mist.soc=Snapdragon® 870-AC
+ro.mist.camera=13MP 
+ro.mist.front=8MP
+ro.mist.platform=SM8250
+ro.mist.screen=11.0' LCD
+ro.mist.device.name=Xiaomi Pad 6

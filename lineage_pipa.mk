@@ -17,6 +17,13 @@ $(call inherit-product, device/xiaomi/pipa/device.mk)
 # Inherit keys
 $(call inherit-product, vendor/lineage-priv/keys/keys.mk)
 
+# MistOS 
+MISTOS_MAINTAINER := NumaanMushtaq
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_ENABLE_BLUR := true
+MIST_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := lineage_pipa
 PRODUCT_DEVICE := pipa
 PRODUCT_MANUFACTURER := Xiaomi
